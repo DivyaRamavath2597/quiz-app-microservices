@@ -1,4 +1,4 @@
-# quiz-app-microservices
+# Modular Quiz Platform
 ## 📌 Overview
 
 The Quiz App is a backend system built using Java Spring Boot and Microservices architecture, designed to handle quiz creation, question management, and result evaluation. Users interact with the application by sending HTTP requests through API testing tools such as Postman or similar clients.
