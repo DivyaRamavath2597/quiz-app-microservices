@@ -1,7 +1,7 @@
 # Modular Quiz Platform
 ## 📌 Overview
 
-The Quiz App is a backend system built using Java Spring Boot and Microservices architecture, designed to handle quiz creation, question management, and result evaluation. Users interact with the application by sending HTTP requests through API testing tools such as Postman or similar clients.
+The  Modular Quiz Platform is a backend system built using Java Spring Boot and Microservices architecture, designed to handle quiz creation, question management, and result evaluation. Users interact with the application by sending HTTP requests through API testing tools such as Postman or similar clients.
 
 When a user wants to take a quiz, they send a request to the system specifying the topic and the number of questions they want. The request is received by the API Gateway, which routes it to the appropriate microservice. The Quiz Service is responsible for creating the quiz. It doesn't store questions directly but communicates with the Question Service through a Feign client to fetch the required number of questions based on the given topic or difficulty.
 
